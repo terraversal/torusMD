@@ -1,0 +1,71 @@
+body {
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#command-line-container {
+  position: absolute;
+  height: 20px;
+  width: 100vw;
+}
+
+#coms-line {
+  color: white;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  border-radius: 0px;
+  border: 0px none;
+  height: 20px;
+  width: 100vw;
+  background-color: rgb(39, 39, 39);
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+#prefix {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  z-index: 10;
+
+  color: white;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+  height: 20px;
+  line-height: 20px;
+
+  margin: 0;
+}
+
+*:focus-visible {
+  outline: 2px dashed white;
+}
+
+#error-line {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: white;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  border-radius: 0px;
+  border: 0px none;
+  max-height: auto;
+  width: 100vw;
+  background-color: rgb(39, 39, 39);
+  box-sizing: border-box;
+}
+
+.codeblock {
+  background-color: rgb(84, 84, 84);
+}

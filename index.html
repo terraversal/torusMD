@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TorusOS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <pre>
+
+_______________   _______________   _______________   ____       ____   _______________
+|             |   |  _________  |   |  _________  |   |  |       |  |   |             |
+_ _ _     _ _ _   |  |       |  |   |  |       |  |   |  |       |  |   |             |
+    |    |        |  |       |  |   |  |       |  |   |  |       |  |   |      |      |
+    |    |        |  |       |  |   |  _________  |   |  |       |  |   |      |______|
+    |    |        |  |       |  |   |  _____  ____/   |  |       |  |   -\_____      -\
+    |    |        |  |       |  |   |  |    \   \     |  |       |  |   |      |      |
+    |    |        |  |       |  |   |  |     \   \    |  |       |  |   |      |      |
+    |    |        |  _________  |   |  |      \   \   |  _________  |   |             |
+     ----         _______________   ----       ----   _______________   _______________
+
+                        _______________         _______________                         
+                        |  _________  |         |             |
+                        |  |       |  |         |             |
+                        |  |       |  |         |      |      |
+                        |  |       |  |         |      |______|
+                        |  |       |  |         -\_____      -\
+                        |  |       |  |         |      |      |
+                        |  |       |  |         |      |      |
+                        |  _________  |         |             |
+                        _______________         _______________
+
+    </pre>
+    <p id="error-line">Errors:</p>
+    <div id="command-line-container">
+      <p id="prefix">>></p>
+      <input id="coms-line" />
+    </div>
+    <ul id="startup--help">
+      <li>Type <span class="codeblock">e</span> for edit mode (while a file is open)</li>
+      <li>Type <span class="codeblock">/ (forward slash)</span> for command mode</li>
+      <li>
+        Type <span class="codeblock">:escape</span> and then hit enter while in command mode to
+        escape the command line.
+      </li>
+      <li>
+        Type <span class="codeblock">:help</span> and then hit enter while in command mode to see a
+        list of actions
+      </li>
+      <li>
+        Type <span class="codeblock">:filenew</span> and then hit enter while in command mode to
+        create a file. Type your desired file name and path after you hit enter.
+      </li>
+      <li>
+        Type <span class="codeblock">:fileopen</span> and then hit enter while in command mode to
+        open a file. Type your desired file path after you hit enter.
+      </li>
+    </ul>
+  </body>
+</html>
