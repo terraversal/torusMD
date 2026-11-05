@@ -1,6 +1,6 @@
 # TorusOS
 
-Try a live demo here: [https://terraversal.github.io/torusOS/]
+Try a live demo here: https://terraversal.github.io/torusOS/
 
 > **TorusOS is pseudo-operating system for productivity and markdown-previewing.**
 
