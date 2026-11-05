@@ -18,9 +18,15 @@ function comFileNew() {
   comsLine.setAttribute("placeholder", "Type your desired file name (e.g., filename.js");
 }
 
+function comFileOpen() {
+  comsLine.value = "";
+  comsLine.setAttribute("placeholder", "Type your desired file path (e.g., filename.js");
+}
 const coms = {
   ":escape": comEscape,
   ":filenew": comFileNew,
+  ":fileopen": comFileOpen,
+  ":help": comHelp,
 };
 
 const runCom = coms[comsLine.value.trim()];
