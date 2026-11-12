@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "TorusMD",
+  "version": "0.1.0",
+  "identifier": "io.github.terraversal.torusmd",
+  "build": {
+    "frontendDist": "../src"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "TorusMD",
+        "maximized": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": ["icons/icon-torusMD.ico", "icons/icon-torusMD.png", "icons/icon-torusMD.svg"]
+  }
+}
