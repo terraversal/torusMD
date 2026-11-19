@@ -1,0 +1,3 @@
+user types in ":fileopen="
+isChained turns on
+if chained is off
