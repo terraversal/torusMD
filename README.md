@@ -27,5 +27,5 @@ Work in progress--not yet installable.
 
 ## License
 
-This project is licensed under the Apache 2.0 License. See (LICENSE)[LICENSE] for more details.
+This project is licensed under the Apache 2.0 License. See [LICENSE](LICENSE) for more details.
 
