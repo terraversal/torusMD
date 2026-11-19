@@ -1,8 +1,6 @@
 # TorusMD
 
-Try a live demo here: https://terraversal.github.io/torusMD/
-
-> **TorusMD is pseudo-operating system for productivity and markdown-previewing.**
+> **TorusMD is an environment for productivity and markdown-previewing.**
 
 ## Features
 
@@ -20,5 +18,14 @@ Try a live demo here: https://terraversal.github.io/torusMD/
 
 - [ ] Built in apps
 - [ ] Locally installable version
-- [ ] File management
-- [ ] More working commands
+- [x] File management
+- [x] More working commands
+
+## Status
+
+Work in progress--not yet installable.
+
+## License
+
+This project is licensed under the Apache 2.0 License. See (LICENSE)[LICENSE] for more details.
+
